@@ -49,6 +49,7 @@ Projenin her gün değişen bir kaynak için kullanılacağı düşünülürse h
 
 Projede datadan kaynaklı(çoğunlukla eksik data) herhangi bir şekilde data çekilemezse log.txt dosyasında toplam kaç item eksik olduğu görülebilmektedir.
 
-
+## Halihazırda yapılmış scrape işleminden örnek datalar
+![image](https://github.com/huseyinkoclar/BookScraper/assets/75777777/82b799cc-07f5-458e-9d85-e0292f136e9a)
 
 
