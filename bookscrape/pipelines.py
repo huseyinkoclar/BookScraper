@@ -16,9 +16,11 @@ class BookscrapePipeline:
             'localhost',
             27017
         )
-        db = self.conn['smartmaple']
-        self.collection = db['kitapyurdu']
 
     def process_item(self, item, spider):
+        if(spider.name == 'kitapsepeti'):
+            self.collection = self.conn['smartmaple']['kitapsepeti']
+        elif(spider.name == 'kitapyurdu'):
+            self.collection = self.conn['smartmaple']['kitapyurdu']
         self.collection.insert(dict(item))
         return item
