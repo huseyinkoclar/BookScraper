@@ -13,10 +13,10 @@ Projenin çalışması için aşağıdaki kütüphanelere ihtiyaç vardır:
 ## Kurulum
 
 1. Bu projeyi bilgisayarınıza klonlayın:
-   git clone https://github.com/huseyinkoclar/basicscraper.git
+   git clone https://github.com/huseyinkoclar/BookScraper
 
 2. Proje dizinine gidin:
-    cd basicscraper
+    cd BookScaper
 
 3. Proje bağımlılıklarını yükleyin:
     pip install -r requirements.txt
